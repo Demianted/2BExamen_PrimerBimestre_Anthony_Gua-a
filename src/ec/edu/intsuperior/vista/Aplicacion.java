@@ -7,6 +7,7 @@ package ec.edu.intsuperior.vista;
 
 import ec.edu.intsuperior.modelo.Persona;
 import ec.edu.intsuperior.modelo.cliente;
+import ec.edu.intsuperior.modelo.empresa;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
@@ -59,9 +60,24 @@ double pd=Double.parseDouble(JOptionPane.showInputDialog("Pago por dia"));
              + "Profesion: "+profesion+"\n"
                      +"Dias trabajdos: "+dt+"\n"
              + "Sueldo bruto: "+sb+"\n");
+        empresa p2 = new empresa();
+        
+        p2.setNombre(JOptionPane.showInputDialog("Ingresa Nombre 1"));
+        p2.setNombre2(JOptionPane.showInputDialog("Ingresa nombre 2 "));
+        p2.setApellido1(JOptionPane.showInputDialog("Ingresa apellido 1  "));
+        p2.setApellido2(JOptionPane.showInputDialog("Ingresa apellido 2"));
+        p2.setCorreo(JOptionPane.showInputDialog("Ingresa correo  "));
+        p2.setDireccion(JOptionPane.showInputDialog("Ingresa direccion "));
+        p2.setTelefono(JOptionPane.showInputDialog("Ingresa telefono  "));
+        p1.setTelefono(JOptionPane.showInputDialog("Ingresa edad"));
+
+        {
+        JOptionPane.showMessageDialog(null, p1.toString());
+        }  
         
     }
-
-
 }
+
+   
+
 

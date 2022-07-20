@@ -17,8 +17,8 @@ public class Directivo extends empleado {
     public Directivo() {
     }
 
-    public Directivo(String empleado, double sueldobruto, String nombre1, String nombre2, String apellido1, String apellido2, int ci, String Numerotelefonico, Date edad) {
-        super(sueldobruto, nombre1, nombre2, apellido1, apellido2, ci, Numerotelefonico, edad);
+    public Directivo(String empleado, double sueldobruto, String nombre1, String nombre2, String apellido1, String apellido2, String Numerotelefonico, Date edad) {
+        super(sueldobruto, nombre1, nombre2, apellido1, apellido2,Numerotelefonico, edad);
         this.empleado = empleado;
     }
 

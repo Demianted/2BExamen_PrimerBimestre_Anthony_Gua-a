@@ -17,8 +17,8 @@ public class empresa extends Persona {
     public empresa() {
     }
 
-    public empresa(String nombreEmpresa, String nombre1, String nombre2, String apellido1, String apellido2, int ci, String Numerotelefonico, Date edad) {
-        super(nombre1, nombre2, apellido1, apellido2, ci, Numerotelefonico, edad);
+    public empresa(String nombreEmpresa, String nombre1, String nombre2, String apellido1, String apellido2, String Numerotelefonico, Date edad) {
+        super(nombre1, nombre2, apellido1, apellido2, Numerotelefonico, edad);
         this.nombreEmpresa = nombreEmpresa;
     }
     
@@ -37,6 +37,22 @@ public class empresa extends Persona {
                  +"Nombre de la empresa: "+getNombreEmpresa();
         
        
+    }
+
+    public void setNombre(String showInputDialog) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setCorreo(String showInputDialog) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setDireccion(String showInputDialog) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setTelefono(String showInputDialog) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
